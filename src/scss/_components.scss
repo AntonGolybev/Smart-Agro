@@ -1,0 +1,733 @@
+@import '_core';
+._smart-agro-nav{
+    background: #334B35;
+    
+    display: flex;
+
+    & > ._smart-agro-nav-logo{
+        width: 197px;
+        height: 30px;
+    
+        background-image: url('/src/image/smart-agro-nav-logo.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        margin: 40px 0 0 240px;
+    }
+
+    & > ._smart-agro-list{
+        display: flex;
+        align-items: center;
+
+        color: #FFF;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+
+        cursor: pointer;
+
+        gap: 50px;
+        margin-left: 412px;
+    }
+    
+}
+
+._smart-agro-head{
+    width: 100%;
+    height: calc(100% - 110px);
+
+    background-image: url('/src/image/smart-agro-head.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+
+    & > ._smart-agro-par{
+        color: #FFF;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+
+        padding: 180px 0 0 240px;
+        
+    }
+
+    & > ._smart-agro-title{
+        color: #F7C35F;
+        font-family: 'Livvic', sans-serif;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        position: relative;
+
+        padding: 20px 0 0 240px;
+        
+        &::after{
+            width: 75px;
+            height: 62px;
+            left: 804px;
+            top: -3px;
+
+            content: '';
+
+            position: absolute;
+
+            background-image: url('/src/image/smart-agro-title.svg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        
+    }
+
+   & > ._smart-agro-title-2{
+        color: #FFF;
+        font-family: 'Livvic', sans-serif;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        padding-left: 240px;
+        
+   }
+
+   & > ._smart-agro-par__long{
+        height: auto;
+
+        color: #FFF;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        padding-left: 240px;
+        padding-top: 30px;
+   }
+
+   & > ._smart_agro-btn{
+        border-radius: 20px;
+        background: #F7C35F;
+        color: #1A1A1A;
+        font-family: 'Livvic', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+
+        cursor: pointer;
+
+        border: none;
+
+        padding: 25px 50px;
+        margin: 50px 0 0 240px;
+        
+   }
+}
+
+._smart-agro-Our-introduction-control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: relative;
+
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        content: "";
+
+        width: 35vw;
+        height: 26vw;
+
+        background: #263C28;
+    }
+
+    & > ._smart-agro-Our-introduction-control-left{
+        width: 564px;
+        height: 651px;
+
+        background-image: url('/src/image/smart-agro-Our-introduction-control-left.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        margin: 100px 0 0 240px;
+
+        position: relative;
+
+        &::before{
+            position: absolute;
+            left: -20px;
+            bottom: 40px;
+
+            content: "";
+
+            width: 20px;
+            height: 260px;
+
+            border-radius: 5px 0px 0px 5px;
+            background: #F7C35F;
+        }
+
+        &::after{
+            position: absolute;
+            left: calc(50% - 214px);
+            bottom: -70px;
+
+            content: "";
+
+            width: 428px;
+            height: 140px;
+
+            border-radius: 10px;
+            background-color: #6D8C54;
+            background-image: url('../image/successful.svg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+    }
+
+    & > ._smart-agro-Our-introduction-control-right{
+        width: 796px;
+        height: 519px;
+
+        margin: 120px 240px 0 0;
+
+        ._smart-agro-Our-introduction-control-right-par{
+            color: #FFF;
+            font-family: 'Century Gothic', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        ._smart-agro-Our-introduction-control-right-title{
+            color: #FFF;
+            font-family: 'Livvic', sans-serif;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            margin-top: 20px;
+        }
+
+        ._smart-agro-Our-introduction-control-right-subtitle{
+            color: #F7C35F;
+            font-family: 'Livvic', sans-serif;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            margin-top: 55px;
+        }
+
+        ._smart-agro-Our-introduction-control-right-subtitle-par{
+            color: #FFF;
+            font-family: 'Century Gothic', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+
+            margin-top: 20px;
+        }
+
+        ._smart-agro-Our-introduction-control-right-list{
+            margin-top: 55px;
+
+            ._smart-agro-Our-introduction-control-right-list-item{
+                color: #FFF;
+                font-family: 'Livvic', sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 27px;
+
+                padding-left: 44px;
+                margin-bottom: 20px;
+
+                position: relative;
+
+                &::before{
+                    position: absolute;
+
+                    width: 24px;
+                    height: 24px;
+                    left: 0;
+
+                    content: '';
+
+                    background-image: url('/src/image/smart-agro-Our-introduction-control-right-list.svg');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }            
+        }
+    }
+}
+
+._Popular-Foods-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;   
+
+    & > ._Popular-Foods-par{
+        color: #FFF;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; 
+        text-transform: uppercase;
+    }
+
+    & > ._Popular-Foods-subtitle{
+        color: #FFF;
+        font-family: 'Livvic', sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+._Popular-Foods-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 60px; 
+
+    margin-top: 100px;
+    
+    & ._Popular-Foods-list-item{
+        user-select: none;
+    }
+
+
+    & ._Popular-Foods-list-item:has(._Popular-Foods-list-item-input:checked) ._Popular-Foods-list-item-trigger{
+        background-color: #F7C35F;
+
+        & > ._Popular-Foods-list-item-text{
+            color: #000000;
+        }
+    }
+
+    & ._Popular-Foods-list-item-input{
+        display: none;
+    }
+
+    & ._Popular-Foods-list-item-trigger{
+        padding: 36px;
+
+        cursor: pointer;
+
+        border-radius: 15px;
+        background-color: rgba(217, 217, 217, 0.10);
+        backdrop-filter: blur(25px);
+
+        transition: all .3s ease-in-out;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 20px;
+
+        width: 108px;
+        height: 108px;
+
+        box-sizing: content-box;
+        
+        & > ._Popular-Foods-list-item-text{
+            color: #FFF;
+
+            text-align: center;
+            font-family: 'Livvic', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+
+            transition: all .3s ease-in-out;
+
+        }
+    }
+    
+}
+
+._Explore-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    gap: 20px;
+    padding-top: 130px;
+
+    user-select: none;
+
+    & > ._Explore-title-par{
+        color: #FFF;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; 
+        text-transform: uppercase;
+    }
+
+    & > ._Explore-title-2{
+        color: #FFF;
+        font-family: 'Livvic', sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+._Explore-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 55px;
+    margin-top: 100px;
+
+    & > ._Explore-img-item{
+        color: #FFF;
+        font-family: 'Livvic', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+
+        width: 320px;
+        height: 350px;
+
+        border-radius: 10px;
+        overflow: hidden;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        cursor: pointer;
+
+        position: relative;
+
+        transition: all .5s ease-in-out;
+
+        &:hover{
+            transform: scaleX(1.12) scaley(1.2);
+
+            background-size: 150%;
+            // background-position: bottom;
+
+            border: 1px solid #F7C35F
+        }
+
+        &::before{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+            content: 'Natural way of agriculture';
+
+            
+            width: 100%;
+
+            text-align: left;
+            text-indent: 25px;
+            padding-top: 50px;
+            display: block;
+
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.78) 40%);
+
+
+            transition: all .35s ease-in-out;
+
+
+
+            opacity: 0;
+            height: 0;
+        }
+
+        &:hover::before{ 
+            opacity: 1;
+            height: 120px;
+        }
+    }
+
+    & > ._Explore-img-item-1{
+        background-image: url('../image/explore-img-1.png');
+    }
+
+    & > ._Explore-img-item-2{
+        background-image: url('../image/explore-img-2.png');
+    }
+
+    & > ._Explore-img-item-3{
+        background-image: url('../image/explore-img-3.png');
+    }
+
+    & > ._Explore-img-item-4{
+        background-image: url('../image/explore-img-4.png');
+    }
+}
+
+._We-are-Leader-btn{
+    color: #1A1A1A;
+    font-family: 'Livvic', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    border-radius: 20px;
+    background: #F7C35F;
+    border: none;
+
+    padding: 25px 50px;
+    margin-top: 122px;
+    margin-left: 1462px;
+
+    user-select: none;
+}
+
+._footer-control-smart-agro{
+
+    margin: 90px 0 0 240px;
+
+    & ._footer-control-smart-agro-logo{
+        width: 198px;
+        height: 30px;
+
+        background-image: url('../image/footer-control-logo.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+    
+    & ._footer-control-smart-agro-par{
+        color: #FFF;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        user-select: none;
+
+        padding: 25px 0 34px 0;
+    }
+
+    
+
+    & ._footer-control-smart-agro-icon{
+        display: flex;
+
+        gap: 30px;
+        padding-top: 34px;
+
+        border-top: 1px solid  rgba(255, 255, 255, 0.20);
+
+        & ._footer-control-smart-agro-icon-item{
+            width: 24px;
+            height: 24px;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            cursor: pointer;
+        }
+
+        & ._footer-control-smart-agro-icon-item-facebook{
+            background-image: url('../image/footer-control-facebook.svg');
+        }
+
+        & ._footer-control-smart-agro-icon-item-twitter{
+            background-image: url('../image/footer-control-twitter.svg');
+        }
+
+        & ._footer-control-smart-agro-icon-item-youtube{
+            background-image: url('../image/footer-control-youtube.svg');
+        }
+
+        & ._footer-control-smart-agro-icon-item-instagram{
+            background-image: url('../image/footer-control-instagram.svg');
+        }
+    }
+}
+
+._footer-control-Useful-Links{
+    margin: 90px 0 0 270px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+    & ._footer-control-Useful-Links-title{
+        color: #FFF;
+        font-family: 'Livvic', sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        user-select: none;
+    }
+
+    & ._footer-control-Useful-Links-list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        user-select: none;
+
+        & ._footer-control-Useful-Links-item{
+            color: #FFF;
+            font-family: 'Century Gothic', sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+._footer-control-Newsletter{
+    margin: 90px 0 0 100px;
+    user-select: none;
+
+
+    & ._footer-control-Newsletter-title{
+        color: #FFF;
+        font-family: 'Livvic', sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    & ._footer-control-Newsletter-par{
+        color: #FFF;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+
+        padding-top: 30px;
+    }
+
+    & ._footer-control-Newsletter-search{
+        position: relative;
+
+        padding-top: 24px;
+
+        & > input{
+            width: 315px;
+            height: 55px;
+
+            border-radius: 50px;
+            background: #263C28;
+            border: none;
+            user-select: none;
+
+            color: rgba(255, 255, 255, 0.50);
+            font-family: 'Century Gothic', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            padding-left: 20px;
+            
+        }
+
+        &::after{
+            position: absolute;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            top: 29px;
+            left: 265px;
+
+            width: 45px;
+            height: 45px;
+
+            content: "Go";
+            cursor: pointer;
+
+            background-image: url('../image/footer-control-newsletter-search.svg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+            color: #1A1A1A;
+            font-family: 'Livvic', sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+            
+            
+        }
+    }
+}
+
+._footer-Copyright-list{
+    display: flex;
+    gap: 843px;
+    user-select: none;
+
+    padding: 50px 0 0 240px;
+
+    & ._footer-Copyright-list-item{
+        color: #FFF;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    & ._footer-Copyright-list-item-control{
+        display: flex;
+        gap: 25px;
+    }
+}
+
+
+
+

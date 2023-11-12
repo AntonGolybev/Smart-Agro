@@ -1,0 +1,152 @@
+// ~~~~~~~~~~~~~~~~~~~~ Reset ~~~~~~~~~~~~~~~~~~~~
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+
+footer, header, nav, section, main{
+    display: block;
+}
+
+body{
+    line-height: 1;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+blockquote, q{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+    content: '';
+    content: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input{
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+
+// @font-face {
+//     font-family: 'YourFontName';
+//     src: url('path-to-your-font.woff2') format('woff2'),
+//          url('path-to-your-font.woff') format('woff');
+//     font-weight: 400; /* Обычный шрифт (normal) */
+//     font-style: normal; /* Обычный стиль (не наклонный) */
+// }
+
+
+// ============== Fonts ==================
+
+
+
+// ~~~ Century Gothic ~~~
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../font/century_gothic/century_gothic.woff2') format('woff2'),
+         url('../font/century_gothic/century_gothic.woff') format('woff');
+    font-weight: 400; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
+
+
+
+// ~~~ Livvic ~~~
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../font/livvic/Livvic-Thin.ttf') format('truetype');
+    font-weight: 100; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../font/livvic/Livvic-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../font/livvic/Livvic-Light.ttf') format('truetype');
+    font-weight: 300; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../font/livvic/Livvic-Regular.ttf') format('truetype');
+    font-weight: 400; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../font/livvic/Livvic-Medium.ttf') format('truetype');
+    font-weight: 500; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../font/livvic/Livvic-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../font/livvic/Livvic-Bold.ttf') format('truetype');
+    font-weight: 700; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../font/livvic/Livvic-Black.ttf') format('truetype');
+    font-weight: 900; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
+
+
+// ~~~ Mistral ~~~
+
+@font-face {
+    font-family: 'Mistral';
+    src: url('../font/mistral/mistral.woff2') format('woff2');
+    font-weight: 400; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
+
+
+// ~~~ Johnstown Demo ~~~
+
+@font-face {
+    font-family: 'Johnstown Demo';
+    src: url('../font/Johnstown_Demo/johnstown_demo.woff2') format('woff2');
+    font-weight: 400; /* Обычный шрифт (normal) */
+    font-style: normal; /* Обычный стиль (не наклонный) */
+}
